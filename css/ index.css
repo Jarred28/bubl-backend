@@ -101,6 +101,12 @@ header,
 hgroup,
 menu,
 nav,
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
 * {
   box-sizing: border-box;
   margin: 0;
